@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="css/styles.css" rel="stylesheet"  type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/script.js" charset="utf-8"></script>
 </head>
+
 <body>
   <header>
 
   </header>
   <section>
-    <input type="button" id="clickMe" value="Button" onclick="triangleType()">
+    <form class="" method="post">
+      <fieldset class = "input triangle sides">
+        <legend><b>TRIANGLE TRACKER</b></legend>
+          <label>First side:<br/>
+            <input type="number" name="side1" required="required"/></label>
+          <br/>
+          <br/>
+          <label>Second side:<br/>
+            <input type="number" name="side2" required="required"/></label>
+          <br/>
+          <br/>
+          <label>Third side:<br/>
+            <input type="number" name="side3" required="required"/></label>
+            <br/>
+            <br/>
+          <input type="submit" name="submit" value="submit" />
+      </fieldset>
+    </form>
   </section>
   <footer>
 
   </footer>
 </body>
+
 </html>
