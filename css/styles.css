@@ -5,18 +5,28 @@
 body {
   background-color: #D3D3D3;
 }
+.header{
+  width: 95%;
+  height: 4em;
+  background: white;
+  margin: auto;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7%;
+}
 .container{
   display: flex;
-  max-width: 80%;
+  max-width: 90%;
   height: 600px;
   margin: auto;
+  margin-top: 20px;
   padding-bottom: 15px;
   border-style: solid;
   border-width: 0.2em;
   border-color: ;
   border-radius: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .left {
@@ -26,7 +36,7 @@ body {
   float: left;
   border-radius: 2%;
   margin: 5px;
-  margin-left: 10px
+  margin-left: 13px
 }
 #triangle{
   margin: auto;
@@ -38,10 +48,41 @@ body {
   background-color: #800000;
   width: 48%;
   height: 100%;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   border-style:solid;
-  border-color: white;
+  border-color: #800000;
   border-radius: 2%;
+}
+#description{
+  height: 48%;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+}
+#display{
+  background-color: white;
+  width: 300px;
+  height: 47%;
+  float: right;
+  margin:5px;
+}
+#displayleft{
+  background-color: white;
+  width: 338px;
+  height: 47%;
+  float: left;
+  margin:5px;
+}
+.footer{
+  width: 95%;
+  height: 4em;
+  background: white;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7%;
 }
