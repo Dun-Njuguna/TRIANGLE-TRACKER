@@ -3,27 +3,45 @@
   padding: 0;
 }
 body {
-  background-color: #FEFFFF;
+  background-color: #D3D3D3;
 }
 .container{
+  display: flex;
   max-width: 80%;
   height: 600px;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   border-style: solid;
-  border-width: 0.3em;
-  border-color: green;
+  border-width: 0.2em;
+  border-color: ;
   border-radius: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
 }
-.form1 {
+.left {
   background-color: white;
-  width: 50%;
+  width: 48%;
   height:100%;
   float: left;
-  background-color: red;
+  border-radius: 2%;
   margin: 5px;
+  margin-left: 10px
+}
+#triangle{
+  margin: auto;
+  padding: 10px;
+  margin-top: 25%;
+}
+.right{
+  float: right;
+  background-color: #800000;
+  width: 48%;
+  height: 100%;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-style:solid;
+  border-color: white;
+  border-radius: 2%;
 }
