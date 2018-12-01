@@ -1,34 +1,39 @@
-function triangleType(result) {
+function triangleType() {
   // triangleType(sides);
   var sides = [];
   for (var i = 0; i <= 2; i++) {
     sides.push(parseInt(
 
-			prompt('Enter the value of triangle sides ' + (i + 1))));
-    // sides = sides.sort((a, b) => a - b);
+      prompt('Enter the value of triangle sides ' + (i + 1))));
 
   }
   var a = Math.pow(sides[0], 2);
   var b = Math.pow(sides[1], 2);
   var c = Math.pow(sides[2], 2);
-
-	if (c === a + b) {
-    //console.log("right triangle");
-		return "right triangle";
+	var result;
+  if (c === a + b) {
+    result = "right triangle";
+    console.log(result);
+    document.getElementById("myText").innerHTML = result;
   } else if (c < a + b) {
-    //console.log("acute triangle");
-		return "acute triangle";
+    result = "right triangle";
+    console.log(result);
+    document.getElementById("myText").innerHTML = result;
   } else if (a === b, b !== c) {
-    //console.log("isosceles triangle");
-		return "isosceles triangle";
+    result = "right triangle";
+    console.log(result);
+    document.getElementById("myText").innerHTML = result;
   } else if (a === b, b === c) {
-    //console.log("equilateral triangle");
-		return "equilateral triangle";
+    result = "right triangle";
+    console.log(v);
+    document.getElementById("myText").innerHTML = result;
   } else if (a != b, b !== c) {
-    //console.log("scalene triangle");
-		return "scalene triangle";
+    result = "right triangle";
+    console.log(result);
+    document.getElementById("myText").innerHTML = result;
   } else {
-    //console.log("not a triangle");
-		return "right not a triangle";
+    result = "right triangle";
+    console.log(result);
+    document.getElementById("myText").innerHTML = result;
   }
 }
