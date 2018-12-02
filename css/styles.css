@@ -15,7 +15,7 @@ body {
   margin-top: 10px;
   border-style: solid;
   border-color: white;
-  border-radius: 7%;
+  border-radius: 5%;
   text-align: center;
   padding-top: 25px;
   color: #800000;
@@ -111,5 +111,5 @@ img{
   margin-bottom: 10px;
   border-style: solid;
   border-color: white;
-  border-radius: 7%;
+  border-radius: 5%;
 }
