@@ -147,3 +147,8 @@ img {
   border-color: white;
   border-radius: 5%;
 }
+#footerhead{
+  text-align: center;
+  color: #800000;
+  padding-top: 20px;
+}
