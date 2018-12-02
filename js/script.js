@@ -1,10 +1,16 @@
+
 function triangleType() {
   // triangleType(sides);
   var sides = [];
-  for (var i = 0; i <= 2; i++) {
-    sides.push(parseInt(
-      prompt('Enter the value of triangle sides ' + (i + 1))));
-  }
+  // for (var i = 0; i <= 2; i++) {
+  //   sides.push(parseInt(
+  //     prompt('Enter the value of triangle sides ' + (i + 1))));
+  // }
+  var one = document.getElementById('first').value;
+  var two = document.getElementById('second').value;
+  var three = document.getElementById('third').value;
+  sides.push(one,two,three);
+
   var a = Math.pow(sides[0], 2);
   var b = Math.pow(sides[1], 2);
   var c = Math.pow(sides[2], 2);
