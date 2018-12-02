@@ -52,11 +52,13 @@ body {
   height: 50%;
   width: 95%;
 }
-#header5{
+
+#header5 {
   color: #800000;
   text-align: center;
 }
-#aboutproj{
+
+#aboutproj {
   color: #800000;
   text-align: center;
 }
@@ -147,7 +149,8 @@ img {
   border-color: white;
   border-radius: 5%;
 }
-#footerhead{
+
+#footerhead {
   text-align: center;
   color: #800000;
   padding-top: 20px;
