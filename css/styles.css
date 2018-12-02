@@ -10,7 +10,7 @@ body {
 .header {
   width: 95%;
   height: 4em;
-  background: white;
+  background: 	#f5f5f5;
   margin: auto;
   margin-top: 10px;
   border-style: solid;
@@ -48,7 +48,16 @@ body {
   padding: 10px;
   margin-top: 25%;
 }
-
+#button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
 .right {
   float: right;
   background-color: #800000;
@@ -88,7 +97,7 @@ body {
 .footer {
   width: 95%;
   height: 4em;
-  background: white;
+  background: 	#f5f5f5;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
