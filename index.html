@@ -16,23 +16,21 @@
   </section>
   <section class="container">
     <section class="left">
-      <form id="triangle" method="post">
+      <form id="triangle"  method="post" action="" onclick="return triangleType()">
         <fieldset>
           <legend><b>TRIANGLE TRACKER</b></legend>
           <label>First side:<br />
-            <input type="number" name="side1" required="required" /></label>
+            <input type="number" name="side1" id="first" required="required" /></label>
           <br />
           <br />
           <label>Second side:<br />
-            <input type="number" name="side2" required="required" /></label>
+            <input type="number" name="side2" id="second" required="required" /></label>
           <br />
           <br <label>Third side:<br />
-          <input type="number" name="side3" required="required" /></label>
+          <input type="number" name="side3" id="third" required="required" /></label>
           <br />
           <br />
-          <input type="submit" name="submit" value="submit" onsubmit="" />
-          <br />
-          <button type="button" name="button" onclick="triangleType()"></button>
+          <input type="button" name="submit" id="button" />
           <output name="result" id="myText"></output>
         </fieldset>
       </form>
