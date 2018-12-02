@@ -16,28 +16,29 @@ function triangleType() {
   var c = Math.pow(sides[2], 2);
   var result;
   if (c === a + b) {
-    result = "right triangle";
+    result = "right1 triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   } else if (c < a + b) {
-    result = "right triangle";
+    result = "right2 triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   } else if (a === b, b !== c) {
-    result = "right triangle";
+    result = "right3 triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   } else if (a === b, b === c) {
-    result = "right triangle";
+    result = "right4 triangle";
     console.log(v);
     document.getElementById("myText").innerHTML = result;
   } else if (a != b, b !== c) {
-    result = "right triangle";
+    result = "right5 triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   } else {
-    result = "right triangle";
+    result = "right6 triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   }
+
 }

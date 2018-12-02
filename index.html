@@ -12,13 +12,13 @@
 
 <body>
   <section class="header">
-
+    <h1>TRIANGLE TRACKER</h1>
   </section>
   <section class="container">
     <section class="left">
       <form id="triangle"  method="post" action="" onclick="return triangleType()">
         <fieldset>
-          <legend><b>TRIANGLE TRACKER</b></legend>
+          <legend><b>TRACKER</b></legend>
           <label>First side:<br />
             <input type="number" name="side1" id="first" required="required" /></label>
           <br />
@@ -30,8 +30,8 @@
           <input type="number" name="side3" id="third" required="required" /></label>
           <br />
           <br />
-          <input type="button" name="submit" id="button" />
-          <output name="result" id="myText"></output>
+          <input type="submit" name="clear" value="clear" id="button" />
+          <output name="result" id="myText" readonly></output>
         </fieldset>
       </form>
     </section>
