@@ -17,6 +17,7 @@ body {
   border-color: white;
   border-radius: 5%;
   text-align: center;
+  text-decoration: underline;
   padding-top: 25px;
   color: #800000;
 }
@@ -56,11 +57,13 @@ body {
 #header5 {
   color: #800000;
   text-align: center;
+  text-decoration: underline;
 }
 
 #aboutproj {
   color: #800000;
   text-align: center;
+  text-decoration: underline;
 }
 
 #triangle {
@@ -105,6 +108,7 @@ body {
 
 #header2 {
   text-align: center;
+  text-decoration: underline;
 }
 
 #display {
@@ -117,6 +121,7 @@ body {
 
 #rightside {
   color: #800000;
+  text-decoration: underline;
 }
 
 img {
@@ -136,6 +141,7 @@ img {
 #leftside {
   text-align: center;
   color: #800000;
+  text-decoration: underline;
 }
 
 .footer {
