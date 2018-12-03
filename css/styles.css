@@ -38,7 +38,7 @@ body {
 }
 
 .left {
-  display:block;
+  display: block;
   background-color: white;
   min-width: 48%;
   min-height: 100%;
@@ -86,7 +86,7 @@ body {
 }
 
 .right {
-  display:inline-block;
+  display: inline-block;
   float: right;
   background-color: #800000;
   min-width: 48%;
@@ -100,7 +100,7 @@ body {
 }
 
 #description {
-  display:inline-block;
+  display: inline-block;
   height: 46%;
   margin: 5px;
   padding: 5px;
@@ -136,7 +136,7 @@ img {
 }
 
 #displayleft {
-  display:inline-block;
+  display: inline-block;
   background-color: white;
   width: 45%;
   height: 47%;
