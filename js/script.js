@@ -19,7 +19,7 @@ function triangleType() {
     console.log(result);
     document.getElementById("myText").innerHTML = result;
   }
-  else if (a===b && b!==c && a!==c) {
+  else if (a!==b && b!==c && a!==c) {
     result = "Scalene triangle";
     console.log(result);
     document.getElementById("myText").innerHTML = result;
