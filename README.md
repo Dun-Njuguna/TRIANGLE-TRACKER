@@ -8,6 +8,13 @@
 
 The objective of this project is to create an application, that takes in values of triangle sides from a user and returns type of triangle or if a triangle can not be formed.
 
+-------------------------------------------------------
+
+
+## Technologies used
+This project has been written in two programming languages, HTML which is used to create the basic skeleton of the pages and CSS which is used to style it.This languages ore dependent on each other in order for a web page to appear fully backed.
+The logical part of the application is created out of javascript, which is used to determine the type of triangle.
+
 ### 1.CSS(Cascading style sheet)
 Css is used to style there appearance of website on the web. Thus this project was a good exercise to help me understand how best to style a page. The project also tested my ability to use an external cascading style sheet for the whole project.
 
@@ -23,15 +30,6 @@ To use Javascript functions to control when the logical part of the application 
 ### 6.Control flows and Logical operators
 They are used to determine the outcome after a user has entered the sides.
 
--------------------------------------------------------
-
-
-
-------------------------------------------------------
-
-## Technologies used
-This project has been written in two programming languages, HTML which is used to create the basic skeleton of the pages and CSS which is used to style it.This languages ore dependent on each other in order for a web page to appear fully backed.
-The logical part of the application is created out of javascript, which is used to determine the type of triangle.
 
 ## Running/Installation instructions
 To run this project on your local machine, simply download it navigate to the folder and open the index.html file with any web browser(preferably chrome).
