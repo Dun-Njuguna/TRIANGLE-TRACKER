@@ -33,9 +33,9 @@ They are used to determine the outcome after a user has entered the sides.
 ------------------------------------------------------------------------
 ## User Requirements.
 To use the application on the web follow the outlined steps
-### 1. vist the following page (https://dun-njuguna.github.io/TRIANGLE-TRACKER/)
-### 2. Enter values for the sides
-### 3. And wait for a message to be displayed(triangle type)
+1. vist the following page (https://dun-njuguna.github.io/TRIANGLE-TRACKER
+2. Enter values for the sides
+3. And wait for a message to be displayed(triangle type)
 
 
 ## Running/Installation instructions
