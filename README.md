@@ -38,7 +38,7 @@ I am working on ensuring that if a user enters values for particular triangle th
 As of witting, the page is not optimized for usage with smaller screens and thus content does not appear consistent.
 
 ## Link to live site
-Here is a link to the live site on git-hub pages()
+Here is a link to the live site on git-hub pages(https://dun-njuguna.github.io/TRIANGLE-TRACKER/)
 
 ## Support or contribution instructions
 If you require to use or make any changes to this project, then reach out to me on the email below.
