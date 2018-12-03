@@ -3,6 +3,7 @@
 ### CREATED BY **Duncan Kariuki**
 
 --------------------------------------------------------------------------
+![Running version](https://github.com/Dun-Njuguna/TRIANGLE-TRACKER/blob/master/images/TRIANGLE-TRACKER_.png)
 ## Project Objectives
 
 The objective of this project is to create an application, that takes in values of triangle sides from a user and returns type of triangle or if a triangle can not be formed.
@@ -23,6 +24,10 @@ To use Javascript functions to control when the logical part of the application 
 They are used to determine the outcome after a user has entered the sides.
 
 -------------------------------------------------------
+
+
+
+------------------------------------------------------
 
 ## Technologies used
 This project has been written in two programming languages, HTML which is used to create the basic skeleton of the pages and CSS which is used to style it.This languages ore dependent on each other in order for a web page to appear fully backed.
