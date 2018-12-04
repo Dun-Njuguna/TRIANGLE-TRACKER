@@ -26,22 +26,25 @@
         <br>
         <p>The tracker allow for input of length values of the three sides of a triangle and then returns what type of triangle the values will produce or no triangle.</p>
       </section>
-      <form id="triangle" method="post" action="" onclick="triangleType()">
+      <form id="triangle" method="post" action="" >
         <fieldset>
           <legend><b>TRACKER</b></legend>
           <label>First side:<br />
-            <input type="number" name="side1" id="first" required="required" /></label>
+          <input type="number" name="side1" id="first" required="required" /></label>
           <br />
           <br />
           <label>Second side:<br />
-            <input type="number" name="side2" id="second" required="required" /></label>
+          <input type="number" name="side2" id="second" required="required" /></label>
           <br />
           <br <label>Third side:<br />
           <input type="number" name="side3" id="third" required="required" /></label>
           <br />
-          <br />
+          <label>Results:
+          <output name="result" id="myText"></output></label>
+          <br>
+          <br>
+          <input type="button" id="button1" name="submit" value="submit" onclick="triangleType()"></button>
           <input type="reset" value="Reset">
-          <output name="result" id="myText" readonly></output>
         </fieldset>
       </form>
     </section>
